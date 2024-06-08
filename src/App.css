@@ -5,17 +5,42 @@
 }
 
 h1 {
+    margin: 2rem 0;
     font-size: 6rem;
+
+    text-shadow: 0 15px 15px rgba(0, 0, 0, .16)
 }
 
-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-    margin: 0 2rem;
+h2 {
+    color: orange;
+}
+
+p {
+    margin: 1rem 0;
 }
 
 section {
     margin: 10rem 0;
+}
+
+.button-resume {
+    background-color: orange;
+    
+    border: none;
+    border-radius: 50px;
+
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .16);
+    font-size: 1rem;
+    font-weight: 500;
+
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+}
+
+li {
+    margin: 0 1rem;
+}
+
+h3 {
+    margin: 2rem 0;
 }
