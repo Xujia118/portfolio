@@ -3,7 +3,7 @@ import { projectsData } from "./projectsData";
 
 function Projects() {
   return (
-    <section>
+    <section className="projects">
       <h3>MY PROJECTS -</h3>
       <Grid container spacing={2}>
         {projectsData.map((project, index) => (

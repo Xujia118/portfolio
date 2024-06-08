@@ -5,6 +5,7 @@ import About from "./components/About";
 
 import "./App.css";
 import { Stack } from "@mui/material";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -16,13 +17,11 @@ function App() {
           sx={{
             mt: { xs: 4, sm: 5, md: 12 },
             mx: { xs: 4, sm: 5, md: 12 },
-            // px: { xs: 2, sm: 5, md: 12 },
-            // py: { xs: 2, sm: 5, md: 12 },
           }}
         >
           <About />
           <Projects />
-          <div className="contact">Contact</div>
+          <Contact />
         </Stack>
       </main>
     </>
