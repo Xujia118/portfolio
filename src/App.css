@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin: 0 2rem;
+}
+
+section {
+    margin: 10rem 0;
+}
