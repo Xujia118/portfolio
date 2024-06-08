@@ -7,14 +7,14 @@ export const projectsData = [
     name: "Park Website",
     image: lotusgarden,
     description:
-      "Conceptualized and crafted a beautiful website for a famous garden in China dedicated to foreign visitors",
+      "A beautiful website for a famous garden in China dedicated to foreign visitors",
     technologies: ["React", "HTML/CSS", "Responsive Design", "Accessibility"],
   },
   {
     name: "Restaurant Client Order System",
     image: bonnati,
     description:
-      "Designed and developed a full-stack restaurant order web application that enables clients to place orders seamlessly in-store or online through a friendly user-interface",
+      "A full-stack web application that enables clients to place orders in-store or online",
     technologies: ["Node", "Express", "MongoDB", "React"],
   },
   {
