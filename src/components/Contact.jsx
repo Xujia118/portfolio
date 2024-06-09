@@ -14,27 +14,40 @@ function Contact() {
           sx={{
             display: "flex",
             flexDirection: { xs: "column", sm: "row" },
-            alignItems:"center",
+            alignItems: "center",
             padding: 2,
           }}
         >
           <div className="box-component">
-            <img src={portrait} alt="portrait" className="portrait"/>
+            <img src={portrait} alt="portrait" className="portrait" />
           </div>
           <div className="box-component">
-            <Typography variant="h5" sx={{ fontWeight: "bold" }}>Jia XU</Typography>
+            <Typography variant="h5" sx={{ fontWeight: "bold" }}>
+              Jia XU
+            </Typography>
             <p>xu.jia5@northeastern.edu</p>
             <span>+1 6692120542</span>
             <div className="social-media">
-              <IconButton>
-                <LinkedIn />
-              </IconButton>
-              <IconButton>
-                <GitHub />
-              </IconButton>
+              <a
+                href="https://www.linkedin.com/in/xujia118/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconButton>
+                  <LinkedIn />
+                </IconButton>
+              </a>
+              <a
+                href="https://github.com/Xujia118"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconButton>
+                  <GitHub />
+                </IconButton>
+              </a>
             </div>
           </div>
-          {/* <Box className="box-component">Some sentences</Box> */}
         </Paper>
       </Box>
     </section>

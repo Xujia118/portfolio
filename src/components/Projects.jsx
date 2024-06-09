@@ -15,10 +15,10 @@ function Projects() {
                   alt={project.name}
                   style={{ height: 200, objectFit: "cover" }}
                 />
-                <Box p={2}>
-                  <Typography variant="h6">{project.name}</Typography>
+                <Box p={4}>
+                  <Typography variant="h6" py={1}>{project.name}</Typography>
                   <Typography>{project.description}</Typography>
-                  <ul>
+                  <ul style={{ padding: '1rem' }}>
                     {project.technologies.map((tech, index) => (
                       <li key={index}>{tech}</li>
                     ))}
