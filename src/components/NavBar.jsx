@@ -1,20 +1,64 @@
+import { useState } from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
-import { AppBar, Box, Button, Menu, MenuItem, MenuList, Switch, Toolbar, Typography } from "@mui/material";
+import {
+  AppBar,
+  Box,
+  Button,
+  IconButton,
+  Menu,
+  MenuItem,
+  MenuList,
+  Switch,
+  Toolbar,
+  Typography,
+} from "@mui/material";
+
+const pages = ["About", "Skills", "Projects", "Contact"];
 
 function NavBar() {
+  const [anchorEl, setAnchorEl] = useState(false);
+  const open = !!anchorEl;
+  function handleClick(e) {
+    setAnchorEl(e.currentTarget);
+  }
+  function handleClose() {
+    setAnchorEl(null);
+  }
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <AppBar position="static">
-      <Toolbar>
-        <Typography variant="h5" sx={{ flexGrow: 1 }}>Xu Jia</Typography>
-        <Box>
-          <Switch />
-          <Button color="inherit">About</Button>
-          <Button color="inherit">Skills</Button>
-          <Button color="inherit">Projects</Button>
-          <Button color="inherit">Contact</Button>
-        </Box>
-      </Toolbar>
-    </AppBar>
+    <Toolbar sx={{ justifyContent: "space-between" }}>
+      <IconButton onClick={handleClick}>
+        <MenuIcon sx={{ display: { xs: "inital", sm: "none" } }} />
+      </IconButton>
+      <Menu anchorEl={anchorEl} open={open} onClose={handleClose}>
+        {pages.map((page, index) => (
+          <MenuItem
+            key={index}
+            onClick={() => scrollToSection(page.toLowerCase())}
+          >
+            {page}
+          </MenuItem>
+        ))}
+      </Menu>
+      <Box sx={{ display: { xs: "none", sm: "initial" } }}>
+        {pages.map((page, index) => (
+          <Button
+            color="inherit"
+            key={index}
+            onClick={() => scrollToSection(page.toLowerCase())}
+          >
+            {page}
+          </Button>
+        ))}
+      </Box>
+      {/* <Switch /> */}
+    </Toolbar>
   );
 }
 

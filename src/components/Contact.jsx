@@ -5,7 +5,7 @@ import portrait from "../assets/portrait.jpg";
 
 function Contact() {
   return (
-    <section className="contact">
+    <section id="contact">
       <h3>CONTACT -</h3>
       <Box className="contact-container">
         <Paper
@@ -34,10 +34,9 @@ function Contact() {
               </IconButton>
             </div>
           </div>
-          <div className="box-component"></div>
+          <Box className="box-component">Some sentences</Box>
         </Paper>
       </Box>
-      <Typography variant="h6"></Typography>
     </section>
   );
 }

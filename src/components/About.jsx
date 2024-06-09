@@ -1,7 +1,9 @@
+import { WavingHand } from "@mui/icons-material";
+
 function About() {
   return (
-    <section className="about">
-      <span>Hi there! I'm</span>
+    <section id="about">
+      <span>HELLO THERE <WavingHand />, I'M</span>
       <h1>Jia</h1>
       <h2>FULL-STACK DEVELOPER | CLOUD ARCHITECT</h2>
       <p>Python • C++ • JavaScript • TypeScript</p>
