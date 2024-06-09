@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function Skills() {
   return (
-    <section className="skills">
-        <h3>
-
-        MY SKILLS -
-        </h3>
+    <section id="skills">
+      <h3>MY SKILLS -</h3>
       <p>Python • C++ • JavaScript • TypeScript • Java</p>
       <p>
         Node • Express • React • SQL/MongoDB • HTML/CSS • RESTful APIs •
@@ -22,4 +19,4 @@ function Skills() {
   );
 }
 
-export default Skills
+export default Skills;

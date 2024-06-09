@@ -9,6 +9,7 @@ export const projectsData = [
     description:
       "A beautiful website for a famous garden in China dedicated to foreign visitors",
     technologies: ["React", "HTML/CSS", "Responsive Design", "Accessibility"],
+    url: "https://www.lotusgardenhz.com",
   },
   {
     name: "Restaurant Client Order System",
@@ -16,6 +17,7 @@ export const projectsData = [
     description:
       "A full-stack web application that enables clients to place orders in-store or online",
     technologies: ["Node", "Express", "MongoDB", "React"],
+    url: "https://bonnati.up.railway.app/",
   },
   {
     name: "Stocks Trading Robot",
@@ -28,5 +30,6 @@ export const projectsData = [
       "Data structures and algorithms",
       "Trading strategies",
     ],
+    url: "https://github.com/Xujia118/Trading-Bot",
   },
 ];

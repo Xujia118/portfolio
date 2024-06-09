@@ -23,7 +23,13 @@ function Projects() {
                       <li key={index}>{tech}</li>
                     ))}
                   </ul>
-                  <Button>View</Button>
+                  <Button
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View
+                  </Button>
                 </Box>
               </Box>
             </Paper>

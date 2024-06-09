@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Menu as MenuIcon } from "@mui/icons-material";
 import {
-  AppBar,
   Box,
   Button,
   IconButton,
@@ -10,10 +9,9 @@ import {
   MenuList,
   Switch,
   Toolbar,
-  Typography,
 } from "@mui/material";
 
-const pages = ["About", "Skills", "Projects", "Contact"];
+const pages = ["About", "Projects", "Contact"];
 
 function NavBar() {
   const [anchorEl, setAnchorEl] = useState(false);
@@ -40,7 +38,10 @@ function NavBar() {
         {pages.map((page, index) => (
           <MenuItem
             key={index}
-            onClick={() => scrollToSection(page.toLowerCase())}
+            onClick={() => {
+              scrollToSection(page.toLowerCase());
+              handleClose();
+            }}
           >
             {page}
           </MenuItem>

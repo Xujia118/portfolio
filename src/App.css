@@ -4,6 +4,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    background-color: rgb(239, 239, 239);
+}
+
 h1 {
     margin: 1rem 0;
     font-size: 6rem;
@@ -29,8 +33,26 @@ p {
     font-size: 1rem;
     font-weight: 500;
 
-    margin: 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
     padding: 1rem 2rem;
+
+    transition: background-color 0.3s ease;
+}
+
+.button-resume:hover {
+    cursor: pointer;
+
+    background-color: #ffec3e;
+}
+
+.resume-link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+section {
+    margin: 2rem 0;
 }
 
 li {

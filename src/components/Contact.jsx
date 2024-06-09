@@ -34,7 +34,7 @@ function Contact() {
               </IconButton>
             </div>
           </div>
-          <Box className="box-component">Some sentences</Box>
+          {/* <Box className="box-component">Some sentences</Box> */}
         </Paper>
       </Box>
     </section>
