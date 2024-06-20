@@ -17,7 +17,7 @@ export const projectsData = [
     description:
       "A full-stack web application that enables clients to place orders in-store or online",
     technologies: ["Node", "Express", "MongoDB", "React"],
-    url: "https://bonnati.up.railway.app/",
+    url: "https://dine-dash.up.railway.app/",
   },
   {
     name: "Stocks Trading Robot",
