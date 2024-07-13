@@ -11,7 +11,7 @@ function About() {
       <p>Certified AWS Solutions Architect</p>
       <a
         className="resume-link"
-        href="https://resume-xujia.s3.us-west-2.amazonaws.com/Resume+Jia+XU+June+2024.pdf"
+        href="https://resume-xujia.s3.us-west-2.amazonaws.com/Resume+Jia+XU+July+2024.pdf"
         target="_blank"
       >
         <button className="button-resume">CHECK OUT MY CV!</button>
