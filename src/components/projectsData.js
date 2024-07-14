@@ -1,12 +1,12 @@
 import lotusgarden from "../assets/lotusgarden.png";
 import bonnati from "../assets/bonnati.png";
 import tradingrobot from "../assets/tradingrobot.png";
-import voice2Task from "../assets/voice2Task.png";
+import voice2task from "../assets/voice2task.png";
 
 export const projectsData = [
   {
     name: "Voice2Task",
-    image: voice2Task,
+    image: voice2task,
     description:
       "A smart sales assistant that summarizes phone call and generates action items",
     technologies: [
