@@ -6,7 +6,7 @@ function About() {
     <section id="about">
       <span>HELLO THERE 👋 , I'M</span>
       <h1>Jia</h1>
-      <h2>FULL-STACK DEVELOPER | CLOUD ARCHITECT</h2>
+      <h2>FULL-STACK DEVELOPER | AWS SOLUTIONS ARCHITECT</h2>
       <Skills />
       <a
         className="resume-link"
