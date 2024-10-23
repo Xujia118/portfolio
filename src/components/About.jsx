@@ -10,7 +10,7 @@ function About() {
       <Skills />
       <a
         className="resume-link"
-        href="https://resume-xujia.s3.us-west-2.amazonaws.com/Resume+Jia+XU+July+2024.pdf"
+        href="https://drive.google.com/file/d/1LMMmoLFSjAuQW73P-2Y9voPInEOXyTCY/view?usp=sharing"
         target="_blank"
       >
         <button className="button-resume">CHECK OUT MY CV!</button>
